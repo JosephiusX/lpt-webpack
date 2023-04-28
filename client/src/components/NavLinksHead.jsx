@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
-import Logo from '/img/logo-white.svg'
+// import Logo from 'logo-white.svg'
 
 
 const NavLinksHead = ({auth}) => {
@@ -29,7 +29,7 @@ const NavLinksHead = ({auth}) => {
   return (
     <nav className="" >
       <Link className='logo logo__box'to={auth ? '/prices' : '/'}>
-          <img src={Logo} className='logo__icon' />
+          <img src={logo-white.svg} className='logo__icon' />
       </Link>
       {renderContent()}
     </nav>

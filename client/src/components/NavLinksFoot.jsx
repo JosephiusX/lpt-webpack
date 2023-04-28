@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 
-import Logo from '/img/logo-white.svg'
+// import Logo from 'logo-white.svg'
 
 const NavLinksFoot = ({auth}) => {
   const renderContent = () => {
@@ -27,7 +27,7 @@ const NavLinksFoot = ({auth}) => {
   return (
     <nav className="logo" >
       <Link className='logo logo__box-footer' to={auth ? '/prices' : '/'}>
-          <img src={Logo} className='logo__icon-footer' />
+          <img src={logo-white.svg} className='logo__icon-footer' />
       </Link>
       {renderContent()}
     </nav>
