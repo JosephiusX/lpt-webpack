@@ -62,13 +62,14 @@
         
         &--1 {
             background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), 
-            url("breakdown-1.webp");
+            url("/breakdown-1.webp");
         }
 
         &--2 {
             background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark), 
-            url("breakdown-2.webp");
+            url("/breakdown-2.webp");
         }
+
         // &--3 {
         //     background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark), 
         //     url(nat-7.jpg);
@@ -183,7 +184,6 @@
             transform: rotateY(0);
         }
 
-    
         &__details {
             padding: 1rem 3rem;
         }
