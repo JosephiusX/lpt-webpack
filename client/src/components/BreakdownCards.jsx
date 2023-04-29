@@ -55,8 +55,8 @@ const BreakdownCards = () => {
                         </h4>
                         <div class="breakdown-card__details">
                             <ul>
-                                <li>  1-25</li>
-                                <li> 3 Pizza menu (base) </li>
+                                <li>1-25</li>
+                                <li>3 Pizza menu (base) </li>
                                 <li>$2.50 per mile traveled to the event(roundtrip)</li>
                                 <li>Tax and 20% gratuity applied</li>
                                 <li>Additional menu items available ($4 per guest per hour)</li>
