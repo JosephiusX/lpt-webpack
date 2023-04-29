@@ -65,7 +65,7 @@ const AboutUs = () => {
               className="gallery__img"
               src={gallery + "-large.webp"}
             />
-
+            
             <img
               srcSet={gallery1 + "-large.webp 1000w, " + gallery1 + ".webp 300w"}
               sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 20vw, 300px"
