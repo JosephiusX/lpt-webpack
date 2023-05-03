@@ -149,7 +149,7 @@
     rgba($color-white, .9) 0%,
     rgba($color-white, .9) 50%,
     transparent 50%) ,
-    url(dessert.webp);
+    url("../../img/dessert.webp");
     background-size: 100%;
     border-radius: 3px;
     box-shadow: 0 1.5rem 4rem rgba($color-black, .2);
@@ -159,7 +159,7 @@
         rgba($color-white, .9) 0%,
         rgba($color-white, .9) 65%,
         transparent 65%) ,
-        url(dessert.webp);
+        url("../../img/dessert.webp");
         background-size: cover;
     }
 
@@ -167,7 +167,7 @@
         background-image: linear-gradient(to right, 
         rgba($color-white, .9) 0%,
         rgba($color-white, .9) 100%),
-        url(contact-2.webp);
+        // url("../../img/contact-2.webp");
     }
 
     &__form {

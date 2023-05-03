@@ -62,12 +62,12 @@
         
         &--1 {
             background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), 
-            url("/breakdown-1.webp");
+            url("../../img/breakdown-1.webp");
         }
-
+        
         &--2 {
             background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark), 
-            url("/breakdown-2.webp");
+            url("../../img/breakdown-2.webp");
         }
 
         // &--3 {
