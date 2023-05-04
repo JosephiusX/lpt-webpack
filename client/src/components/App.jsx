@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route} from 'react-router-dom';
+import { BrowserRouter, Route, Routes} from 'react-router-dom';
 import { connect } from 'react-redux';
 import * as actions from '../actions';
 
-import Navigation from './Navigation';
+// import Navigation from './Navigation';
 import Landing from './Landing';
 import Prices from './Prices';
 
@@ -16,14 +16,13 @@ class App extends Component {
 
   render() {
       return (
-      <div className="container">
-        <BrowserRouter>
-            <Navigation className="box" />
-            <Route path="/" exact component={Landing} />
-            <Route path="/prices" exact component={Prices} />
-            <Route path="/surveys/new" component={SurveyNew}/>
+        <BrowserRouter className="container">
+          <Routes>
+              <Route path="/" exact component={Landing} />
+              <Route path="/prices" exact component={Prices} />
+              <Route path="/surveys/new" component={SurveyNew}/>
+          </Routes>
         </BrowserRouter>
-      </div>
     );
   }
 }
