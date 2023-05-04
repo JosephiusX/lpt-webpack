@@ -73,11 +73,11 @@ const Menu = () => {
         </div>
       </div>
 
-      {/* <div className="u-center-text u-margin-top-huge">
+      <div className="u-center-text u-margin-top-huge">
         <a href="#" className="btn-text">
           Read all stories &rarr;
         </a>
-      </div> */}
+      </div>
     </section>
   );
 };
